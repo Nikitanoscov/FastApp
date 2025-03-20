@@ -11,6 +11,9 @@ class APIPrefix(BaseModel):
     prefix_api: str = "/api/v1"
 
 
+class DBConfig()
+
+
 class Settings(BaseSettings):
     run: RunConfig = RunConfig()
     api: APIPrefix = APIPrefix()
